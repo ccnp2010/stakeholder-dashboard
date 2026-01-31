@@ -14,9 +14,9 @@
         }
 
         body {
-            background: #0f172a;
+            background: #ffffff;
             font-family: 'DM Sans', sans-serif;
-            color: #e2e8f0;
+            color: #1e293b;
             padding: 40px;
             line-height: 1.6;
         }
@@ -31,14 +31,14 @@
             text-align: center;
             margin-bottom: 50px;
             padding-bottom: 30px;
-            border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+            border-bottom: 1px solid #e2e8f0;
         }
 
         .main-header h1 {
             font-size: 2.4rem;
             font-weight: 700;
             margin-bottom: 10px;
-            background: linear-gradient(135deg, #fff 0%, #94a3b8 100%);
+            background: linear-gradient(135deg, #1e293b 0%, #475569 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -78,7 +78,7 @@
         }
 
         .section-desc {
-            color: #64748b;
+            color: #475569;
             font-size: 0.9rem;
             margin-left: 55px;
             margin-bottom: 20px;
@@ -88,10 +88,11 @@
            VISUAL 1: Color-coded Comparative Table
            ============================================ */
         .table-container {
-            background: rgba(30, 41, 59, 0.5);
+            background: #f8fafc;
             border-radius: 16px;
             padding: 25px;
             overflow-x: auto;
+            border: 1px solid #e2e8f0;
         }
 
         .stakeholder-table {
@@ -101,11 +102,11 @@
         }
 
         .stakeholder-table th {
-            background: #1e293b;
+            background: #f1f5f9;
             padding: 16px 12px;
             text-align: center;
             font-weight: 600;
-            border-bottom: 2px solid #334155;
+            border-bottom: 2px solid #cbd5e1;
         }
 
         .stakeholder-table th.company-header {
@@ -114,7 +115,7 @@
 
         .stakeholder-table th .company-name {
             font-size: 0.95rem;
-            color: #f1f5f9;
+            color: #1e293b;
         }
 
         .stakeholder-table th .industry-name {
@@ -127,12 +128,12 @@
         .stakeholder-table td {
             padding: 14px 12px;
             text-align: center;
-            border-bottom: 1px solid rgba(51, 65, 85, 0.5);
+            border-bottom: 1px solid #e2e8f0;
             vertical-align: middle;
         }
 
         .stakeholder-table tr:hover td {
-            background: rgba(51, 65, 85, 0.3);
+            background: #f1f5f9;
         }
 
         .rank-cell {
@@ -182,7 +183,7 @@
             gap: 12px;
             margin-top: 20px;
             padding-top: 20px;
-            border-top: 1px solid rgba(51, 65, 85, 0.5);
+            border-top: 1px solid #e2e8f0;
         }
 
         .legend-item {
@@ -190,7 +191,7 @@
             align-items: center;
             gap: 8px;
             font-size: 0.75rem;
-            color: #94a3b8;
+            color: #475569;
         }
 
         .legend-color {
@@ -203,9 +204,10 @@
            VISUAL 2: Cross-industry Heat Map
            ============================================ */
         .heatmap-container {
-            background: rgba(30, 41, 59, 0.5);
+            background: #f8fafc;
             border-radius: 16px;
             padding: 25px;
+            border: 1px solid #e2e8f0;
         }
 
         .heatmap-grid {
@@ -233,9 +235,9 @@
         }
 
         .heatmap-label {
-            background: #1e293b;
+            background: #f1f5f9;
             font-weight: 600;
-            color: #e2e8f0;
+            color: #1e293b;
         }
 
         .heatmap-corner {
@@ -254,7 +256,7 @@
         .heat-3 { background: #eab308; color: #1e293b; font-weight: 500; }
         .heat-2 { background: #84cc16; color: #1e293b; }
         .heat-1 { background: #22c55e; color: #fff; }
-        .heat-0 { background: rgba(51, 65, 85, 0.3); color: #64748b; }
+        .heat-0 { background: #e2e8f0; color: #64748b; }
 
         .heatmap-scale {
             display: flex;
@@ -263,7 +265,7 @@
             gap: 8px;
             margin-top: 20px;
             font-size: 0.75rem;
-            color: #94a3b8;
+            color: #475569;
         }
 
         .scale-bar {
@@ -287,16 +289,17 @@
         }
 
         .chart-card {
-            background: rgba(30, 41, 59, 0.5);
+            background: #f8fafc;
             border-radius: 16px;
             padding: 25px;
+            border: 1px solid #e2e8f0;
         }
 
         .chart-title {
             font-size: 1rem;
             font-weight: 600;
             margin-bottom: 20px;
-            color: #f1f5f9;
+            color: #1e293b;
         }
 
         .chart-wrapper {
@@ -315,10 +318,13 @@
         }
 
         .insight-card {
-            background: rgba(30, 41, 59, 0.5);
+            background: #f8fafc;
             border-radius: 12px;
             padding: 20px;
             border-left: 4px solid;
+            border-top: 1px solid #e2e8f0;
+            border-right: 1px solid #e2e8f0;
+            border-bottom: 1px solid #e2e8f0;
         }
 
         .insight-card.rising { border-color: #22c55e; }
@@ -342,7 +348,7 @@
 
         .insight-text {
             font-size: 0.8rem;
-            color: #94a3b8;
+            color: #475569;
             line-height: 1.5;
         }
 
@@ -350,21 +356,21 @@
         .figure-caption {
             margin-top: 15px;
             padding: 15px 20px;
-            background: rgba(15, 23, 42, 0.5);
+            background: #f1f5f9;
             border-radius: 8px;
             border-left: 3px solid #64748b;
         }
 
         .caption-label {
             font-size: 0.75rem;
-            color: #64748b;
+            color: #475569;
             font-weight: 600;
             margin-bottom: 5px;
         }
 
         .caption-text {
             font-size: 0.8rem;
-            color: #94a3b8;
+            color: #475569;
         }
 
         /* Responsive */
@@ -682,9 +688,9 @@
                     y: {
                         beginAtZero: true,
                         max: 5,
-                        grid: { color: 'rgba(148, 163, 184, 0.1)' },
+                        grid: { color: '#e2e8f0' },
                         ticks: { 
-                            color: '#94a3b8',
+                            color: '#475569',
                             stepSize: 1,
                             callback: (val) => val + ' companies'
                         }
@@ -692,7 +698,7 @@
                     x: {
                         grid: { display: false },
                         ticks: { 
-                            color: '#94a3b8',
+                            color: '#475569',
                             font: { size: 11 }
                         }
                     }
@@ -733,16 +739,16 @@
                         beginAtZero: true,
                         max: 5,
                         reverse: true,
-                        grid: { color: 'rgba(148, 163, 184, 0.1)' },
+                        grid: { color: '#e2e8f0' },
                         ticks: { 
-                            color: '#94a3b8',
+                            color: '#475569',
                             callback: (val) => '#' + val
                         }
                     },
                     y: {
                         grid: { display: false },
                         ticks: { 
-                            color: '#94a3b8',
+                            color: '#475569',
                             font: { size: 11 }
                         }
                     }
